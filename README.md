@@ -1,3 +1,3 @@
 # serka
 # 
-Serotonin goin crazy
+~~Serotonin goin crazy~~
