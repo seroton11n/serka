@@ -20,7 +20,7 @@
 --------
 Файл: .github/workflows/ci-cd.yml
 
-/// name: CI/CD Pipeline
+ name: CI/CD Pipeline
 
 on:
   push:
@@ -52,17 +52,17 @@ jobs:
 2. Открыть Settings → Secrets and variables → Actions.
 3. Нажать New repository secret.
 4. Ввести имя и значение.
-Использовать в workflow, например:
+Использование секрета в workflow:
 
+```
 env:
-  API_KEY: ${{ secrets.API_KEY }}
+  MY_SECRET: ${{ secrets.MY_SECRET }}
+```
 --------
- Как активировать pipeline
+## Как активировать pipeline
 
 Pipeline запускается:
-
-автоматически при:
-
+1. автоматически при:
 push в main
 
 pull request в main
