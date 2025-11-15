@@ -1,5 +1,5 @@
-CI/CD Pipeline для GitHub Actions
-Цели проекта
+##CI/CD Pipeline для GitHub Actions##
+###Цели проекта###
 
 Цель проекта — настроить простой и понятный CI/CD pipeline, который автоматически:
 
