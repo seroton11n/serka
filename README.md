@@ -45,11 +45,13 @@ jobs:
       - name: Собрать проект
         run: npm run build
 --------
-## Как добавить секреты  Чтобы использовать токены, ключи или пароли:  1. Перейти в репозиторий.  2. Открыть Settings → Secrets and variables → Actions.  3. Нажать New repository secret.  4. Ввести имя и значение.  Использовать в workflow, например:
+## Как добавить секреты  
+
+Чтобы использовать токены, ключи или пароли:  1. Перейти в репозиторий.  2. Открыть Settings → Secrets and variables → Actions.  3. Нажать New repository secret.  4. Ввести имя и значение.  Использовать в workflow, например:
 
 env:
   API_KEY: ${{ secrets.API_KEY }}
-
+--------
  Как активировать pipeline
 
 Pipeline запускается:
