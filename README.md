@@ -73,3 +73,4 @@ Pipeline запускается:
 - Actions
 - выбор workflow
 - кнопка Run workflow
+![jj}(<img width="827" height="835" alt="image" src="https://github.com/user-attachments/assets/ea0db930-c56f-45e9-a0cf-7060d8166f21" />)
