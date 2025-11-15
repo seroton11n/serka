@@ -62,15 +62,10 @@ env:
 ## Как активировать pipeline
 
 Pipeline запускается:
-1. автоматически при:
-push в main
-
-pull request в main
-
+автоматически при:
+- push в main
+- pull request в main
 вручную через:
-
-Actions
-
-выбор workflow
-
-кнопка Run workflow
+- Actions
+- выбор workflow
+- кнопка Run workflow
